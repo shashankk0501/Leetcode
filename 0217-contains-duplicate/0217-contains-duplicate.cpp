@@ -6,13 +6,11 @@ public:
 
         for(int i =0;i<n;i++){
             countdub[nums[i]]++;
-        }
-
-        for(int i=0;i<countdub.size();i++){
             if(countdub[nums[i]]>1){
-                return true ;
+                return true;
             }
         }
+
         return false;
 
     }
